@@ -25,7 +25,7 @@ html,body{
     font-size: 1.1em;
     font-weight: 600;  
     float: right;
-    color: black;
+    color: #485761;
     padding-right: 2%;
     padding-bottom: 1.5%;
 
@@ -47,7 +47,7 @@ html,body{
 }
 #logo{
     font-family: 'Lato', sans-serif;
-    color: black;
+    color: #485761;
     font-size: 2.5em;
     font-weight: 900;
     padding-top: 13%;
@@ -105,7 +105,7 @@ html,body{
     top: 0;
     font-family: 'Lato', sans-serif;
     font-size: 1.3em;
-    color: black;
+    color: #485761;
     font-weight: 600;
     float: right;
     padding-right: 5%;
@@ -178,6 +178,7 @@ html,body{
     padding-top: 20px;
     text-align: center;
     font-family: 'Lato', sans-serif;
+    color: #485761;
     
 }
 .col-md-2{
@@ -206,13 +207,14 @@ html,body{
 .edit2{
     font-size: 0.7em;
     font-family: 'Lato', sans-serif;
-    color: black;
+    color: #485761;
     font-weight: 600;
 }
 .head2{
     padding-top: 2%;
 }
-.img-circle{
+
+.imgg{
     max-height: 150px;
     max-width: 150px;
     padding-top: 8%;
@@ -223,12 +225,23 @@ html,body{
     text-align: center;
     font-weight: 900;
 }
-.cardholder2{
+.cardholder2, .cardholder3, .cardholder4{
     padding-top: 2%;
     padding-left: 2%;
     padding-right: 2%;
 }
-.cardholder2 .col-md-2{
+.cardholder3{
+    padding-top: 15%;
+    
+}
+.cardholder4{
+    padding-top: 15%;
+}
+#linkc{
+    text-decoration: none;
+    color: #485761;
+}
+.cardholder2 .col-md-2, .cardholder3 .col-md-2,.cardholder4 .col-md-2{
     background-color: #e6e7e8;
     font-family: 'Lato', sans-serif;
     color:  #4e5255;  
@@ -236,7 +249,10 @@ html,body{
 }
 .card-title{
     padding-top: 4%;
-    font-size: 0.85em;
+    font-size: 0.7em;
+    color: #485761;
+    border-top: 1px solid #c8cbce;
+    font-weight: 700;
 }
 .card-text{
     font-size: 0.75em;
@@ -277,6 +293,7 @@ html,body{
 }
 
 .content3 .col-md-7{    
+    color: #485761;
     padding-top: 6%;
     padding-right: 10%;
     font-size: 1.3em;
@@ -489,5 +506,11 @@ footer{
         padding: 3%;
         font-size: 1em;
         padding-bottom: -2%;
+    }
+    .card-title{
+        padding-bottom: 4%;
+    }
+    .cardholder3, .cardholder4{
+        padding-top: 0;
     }
 }
