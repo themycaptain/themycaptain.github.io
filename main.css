@@ -434,6 +434,10 @@ footer{
 #imglow{
     padding-top: 12%;
 }
+.card-title{
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+}
 
 @media only screen and (max-width: 768px) and (max-device-width: 1024px)  {
     .container2{
@@ -510,6 +514,7 @@ footer{
     }
     .card-title{
         padding-bottom: 4%;
+        font-family: 'Lato', sans-serif;
     }
     .cardholder3, .cardholder4{
         padding-top: 0;
