@@ -209,6 +209,25 @@ html,body{
     font-family: 'Lato', sans-serif;
     color: #485761;
     font-weight: 600;
+    display: none;
+    text-decoration: none;
+}
+
+.row3 a{
+    text-decoration: none;
+    color: #ff8f59;    
+}
+.row3 .col-md-2 a:hover .edit2{
+        display: block;   
+        color: #485761;
+        text-decoration: none;
+}
+.row3 .col-md-2 a:hover .cwork{
+    color: #ff8f59;
+    text-decoration: none;
+}
+.row3 .col-md-2 a:hover{
+    text-decoration: none;
 }
 .head2{
     padding-top: 2%;
@@ -330,7 +349,14 @@ html,body{
   text-decoration: none;
   color: white;
 }
-
+.capthead h2{
+    color: #ff8f59;
+    font-size: 2.5em;
+    font-weight: 700;
+    padding-top: 4%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
 
 .reviews h2, .newss h2{
     color: #ff8f59;
@@ -543,6 +569,7 @@ and (max-device-width : 1024px){
         font-weight: 600;
         font-size: 1.2em;
         font-family: 'Lato', sans-serif;
+        display: block;
     }
     .card-title{
         font-size: 1.2em;
